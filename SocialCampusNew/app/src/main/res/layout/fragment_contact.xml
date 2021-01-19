@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/spinnerBranch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewBranch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/spinnerBranch"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

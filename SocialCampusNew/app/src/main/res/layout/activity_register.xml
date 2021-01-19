@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/title_SC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            android:text="Social Campus"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="İnformation Entertainment Sharing"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/register_Email"
+            android:drawableStart="@drawable/ic_email"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="350dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:textSize="14sp"
+            android:hint="E-Mail Adress"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/register_name_surname"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textSize="14sp"
+            android:hint="Name Surname"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/register_uni_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="İnformation Entertainment Sharing"
+            android:textStyle="italic" />
+        <Spinner
+            android:id="@+id/register_spn_uni"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/ic_baseline_university"
+            />
+
+        <TextView
+            android:id="@+id/register_branch_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:text="İnformation Entertainment Sharing"
+            android:textStyle="italic" />
+        <Spinner
+            android:id="@+id/register_spn_branch"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/ic_department"
+            />
+
+        <EditText
+            android:id="@+id/register_password"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textSize="14sp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/mybutton"
+            android:onClick="sinUpClicked"
+            android:text="Register" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

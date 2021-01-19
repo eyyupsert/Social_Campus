@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43470077393",
+    "project_id": "socialcampus-db",
+    "storage_bucket": "socialcampus-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43470077393:android:9ffa533a2d6fe73d12b4f0",
+        "android_client_info": {
+          "package_name": "com.example.socialcampusnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43470077393-jdc1mhg594vmrrb34sdd94v9nh2b94gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9N6dcB_HwmKBEf0wdXWeFOzgS9GnnKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43470077393-jdc1mhg594vmrrb34sdd94v9nh2b94gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

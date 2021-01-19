@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.UserAuthFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/title_SC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:text="Social Campus"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="İnformation Entertainment Sharing"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/update_Email"
+                android:drawableStart="@drawable/ic_email"
+                android:background="@drawable/custom_input"
+                android:drawablePadding="10dp"
+                android:layout_height="40dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_width="230dp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:textSize="14sp"
+                android:hint="E-Mail Adress"
+                android:inputType="textEmailAddress" />
+            <Button
+                android:id="@+id/update_email_btn"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp"
+                android:background="@drawable/mybutton"
+                android:text="Update Email" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/update_password"
+                android:drawableStart="@drawable/ic_lock"
+                android:background="@drawable/custom_input"
+                android:drawablePadding="10dp"
+                android:layout_height="40dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_width="230dp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:textSize="14sp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+            <Button
+                android:id="@+id/update_password_btn"
+                android:layout_width="130dp"
+                android:textSize="12dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/mybutton"
+                android:text="Update Password" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="130dp"
+            android:textSize="12dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="140dp"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:layout_marginTop="60dp"
+            android:text="Delete User"
+            />
+    </LinearLayout>
+
+</FrameLayout>

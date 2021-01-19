@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PostShareActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/sharePost"
+            android:layout_width="93dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="4dp"
+            android:onClick="postShare"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/mybutton"
+            android:text="Share"
+            android:layout_gravity="right"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/post_ProfilePhoto"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/ic_person" />
+            <TextView
+                android:id="@+id/post_nameSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="25dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/insertGallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_insert_photo"
+            android:layout_gravity="right"
+            android:onClick="selectImage"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/post_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:hint="Your comment..."
+            android:inputType="textMultiLine"
+            android:gravity="center|left"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:minLines="3"
+            android:maxLines="4"
+
+            />
+
+        <ImageView
+            android:id="@+id/insertImage"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"/>
+        />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

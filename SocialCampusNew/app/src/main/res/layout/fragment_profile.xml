@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/profile_Update"
+            android:layout_width="93dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/mybutton"
+            android:text="Update"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:id="@+id/profile_photo_select"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_insert_photo"
+            android:layout_below="@+id/profile_Update"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView_Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            tools:src="@tools:sample/avatars" />
+
+
+        <EditText
+            android:id="@+id/profile_name_surname"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageView_Profile"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:textSize="14sp"
+            android:hint="Name Surname"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/profile_textView_uni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/profile_name_surname"/>
+        <Spinner
+            android:id="@+id/profile_spinner_Uni"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/ic_baseline_university"
+            android:layout_below="@+id/profile_textView_uni"
+            />
+        <TextView
+            android:id="@+id/profile_textView_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="TextView"
+            android:layout_below="@+id/profile_spinner_Uni"/>
+        <Spinner
+            android:id="@+id/profile_spinner_Branch"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/ic_department"
+            android:layout_below="@+id/profile_textView_branch"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

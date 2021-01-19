@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title=""
+        android:icon="@drawable/ic_menu_home"
+        />
+    <item
+        android:id="@+id/nav_uni"
+        android:title=""
+        android:icon="@drawable/ic_menu_university"
+        />
+    <item
+        android:id="@+id/nav_contact"
+        android:title=""
+        android:icon="@drawable/ic_menu_contact"
+        />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title=""
+        android:icon="@drawable/ic_menu_profile"
+        />
+    <item
+        android:id="@+id/nav_update"
+        android:title=""
+        android:icon="@drawable/ic_menu_update"
+        />
+
+</menu>
